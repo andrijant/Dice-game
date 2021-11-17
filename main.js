@@ -65,7 +65,7 @@ function rollDice() {
     let loop = setInterval(function () {
         let rand = Math.ceil(Math.random()*6);
         counter++;
-        diceImg.setAttribute('src',`../images/dice-${rand}.png`);
+        diceImg.setAttribute('src',`./images/dice-${rand}.png`);
         if (counter > 30) {
             clearInterval(loop);
             displayScore(rand);
