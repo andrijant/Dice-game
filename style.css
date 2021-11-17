@@ -1,0 +1,93 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+body {
+    background: url(./images/bg.jpg) no-repeat;
+    background-size: cover;
+    color: #ddd;
+    text-align: center;
+    font-size: 30px;
+    
+}
+h1 {
+    margin: 30px auto;
+    padding-bottom: 100px;
+}
+.container {
+    width: 500px;
+    height: 550px;
+    box-shadow:  0 0 8px #ddd;
+    margin:  50px auto;
+    position: relative;
+    right: -20%;
+    background-color: #ddd;
+}
+.rounds {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 38px;
+    background-color: #ff6347;
+    color: #ddd;
+    top: -50px;
+    left: -50px;
+}
+.dices {
+    background-color: #ddd;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 38px;
+    color: #1C6BAF;
+    top: -50px;
+    right: -50px;
+}
+#dice {
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    border: 2px solid #ff6347;
+}
+.player1,.player2 {
+    width: 250px;
+    height: 500px;
+    float: left;
+    background-color: #ddd;
+    border: 1px solid #1C6BAF;
+}
+header {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #1C6BAF;
+    font-size: 30px;
+    color: lightcyan;
+}
+main {
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 200px;
+    color: #1C6BAF;
+}
+footer {
+    height: 50px;
+    background-color: #1C6BAF;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    color: white;
+}
+.winner {
+    height: 50px;
+    color: #1C6BAF;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+}
